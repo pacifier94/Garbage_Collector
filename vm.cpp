@@ -377,8 +377,15 @@ int main(int argc, char* argv[]) {
     
     VM vm(buffer);
     vm.run();
+            if (!vm.operandStack.empty()) {
+            Value res = vm.operandStack.back();
+    if (res.type == VAL_OBJ) {
+        cout << "Final Result: [Object at " << res.obj << "]" << endl;
+    } else {
+        cout << "Final Result: " << res.i << endl;
+    }
+        }
 
     return 0;
 }
 #endif
-
