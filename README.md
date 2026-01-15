@@ -157,7 +157,3 @@ GC Phases:
 ## Author
 
 Developed as part of a Systems Concepts laboratory assignment. by- Astitwa Saxena 2025MCS3005 Abhishek Gupta 2025MCS2963
-```
-
-```
-```
