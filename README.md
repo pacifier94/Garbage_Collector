@@ -136,28 +136,6 @@ GC Phases:
 
 ---
 
-## Demo Instructions
-
-For TA evaluation:
-
-```bash
-make
-./asm fib.asm program.bin
-./vm program.bin
-g++ -DGC_TEST gc_tests.cpp -o gc_tests
-./gc_tests
-```
-
-Explain:
-
-* Root identification
-* Mark traversal
-* Sweep deletion
-* Cycles and closures
-* Stress behavior
-
----
-
 ## Key Features
 
 * Explicit garbage collection trigger
